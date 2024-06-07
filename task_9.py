@@ -18,8 +18,11 @@ while num > 1:
     num -= 1
 print(f)
 
+
 def factorial(num, f=1):
     if num == 0:
         return f
-    return factorial(num - 1, f*num)
+    return factorial(num - 1, f * num)
+
+
 print(factorial(5))
